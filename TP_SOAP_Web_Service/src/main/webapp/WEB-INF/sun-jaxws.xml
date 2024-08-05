@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+    <endpoint name="calEndPoint" implementation="dz.example.Calculateur" url-pattern="/ws/calService"/>
+    <endpoint name="distEndPoint" implementation="dz.distservice.DistService" url-pattern="/ws/distService"/>
+</endpoints>

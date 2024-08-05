@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Info Service</title>
+</head>
+<body>
+
+    <h1>Country Info Service</h1>
+
+    <form action="soapclient.jsp" method="GET">
+        <label for="operation">Choose an operation:</label>
+        <select name="operation" id="operation">
+            <option value="ListOfContinentsByName">List of Continents</option>
+            <option value="FullCountryInfo">Country Information by Country Code</option>
+            <option value="CountryCurrency">Country Currency by Country Code</option>
+        </select>
+
+        <br>
+
+        <label for="countryCode">Enter Country Code:</label>
+        <input type="text" name="countryCode" id="countryCode">
+
+        <br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
