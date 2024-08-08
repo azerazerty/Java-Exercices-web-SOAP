@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculateur</title>
+</head>
+<body>
+
+    <form action="ClientSoap.jsp" method="POST">
+        <table>
+            <tr>
+                <td><label for="a">A</label></td>
+                <td><input type="number" name="a" required></td>
+            </tr>
+            <tr>
+                <td><label for="b">B</label></td>
+                <td><input type="number" name="b" required></td>
+            </tr>
+            <tr>
+                <td>Opération</td>
+                <td>
+                    <select name="operation">
+                        <option value="add">Addition</option>
+                        <option value="sous">Soustraction</option>
+                        <option value="div">Division</option>
+                        <option value="mult">Multiplication</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align:right;"><input type="submit" value="Calculer"></td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
